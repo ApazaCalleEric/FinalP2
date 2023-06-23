@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useState } from 'react';
 import './Eric.css';
 import {AiOutlineSketch,AiFillStar} from "react-icons/ai";
 function EricContainer() {
@@ -13,9 +13,11 @@ function EricContainer() {
 
   return (
     <>
-        <div className='Ericcontainer'>
+        <div className='ericcontainer'>
             <div className='ericmini1'>
-                <img src='https://blog.virtualianet.com/wp-content/uploads/2015/10/Encuentra-im%C3%A1genes-libres-en.png' className='img'></img>
+                <img src='https://www.mascotahogar.com/Imagenes/fondo-del-gato-chartreux.jpg' 
+                style={{width:'300px'}}
+                className='img'></img>
                 <div className='heart'>
                     
                     <AiOutlineSketch color='#ff0080' size={40} enableBackground={15}/>
@@ -25,7 +27,7 @@ function EricContainer() {
             <div className='ericmini2'>
                 <div className='cat1'>
                     <div className='h3'>
-                        <h3>Standarr Cactus</h3>
+                        <h3>Standarr CAT</h3>
                         <h3>Succulent</h3>
                     </div>
                     <h3 >$20.0</h3>
